@@ -1,4 +1,9 @@
 DungeonMaster::Application.routes.draw do
+
+  match "/", to: "application#homepage"
+  match "/start", to: "application#start", as: "start"
+  match "/join", to: "application#join", as: "join"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
