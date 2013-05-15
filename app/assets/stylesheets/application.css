@@ -2,14 +2,14 @@ body{
   background-color: lightblue;
 }
 .button{
-  font-size: 150%;
+  font-size: 250%;
   width: 100%;
-  height: 100px;
+  height: 200px;
   border-radius: 40px;
   border: 1px solid black;
 }
 #main{
-  width: 500px;
+  width: 800px;
   margin: auto;
 }
 
